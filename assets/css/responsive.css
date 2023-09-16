@@ -43,4 +43,17 @@
 	.nav-item:hover .nav-item-link {
 	    color: #000;
 	}
+	.project-details-sidebar-left {
+	    height: auto;
+	    margin-bottom: 20px;
+	}
+
+	.project-details-content-wrap {
+	    height: auto;
+	    margin-bottom: 20px;
+	}
+
+	.project-details-sidebar-right {
+	    height: auto;
+	}
 }
