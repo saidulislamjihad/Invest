@@ -112,77 +112,34 @@
 <!-- /Header -->
 
 <main style="background-color: #294e83;">
-	<!-- Contact -->
-	<section class="contact-section-wrapper">
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-lg-6 col-md-12">
-	                <div class="contact-info-item">
-	                    <div class="contact-info-icon">
-	                        <i class="fas fa-phone-alt"></i>
-	                    </div>
-	                    <h5 class="title">
-	                        Phone
-	                    </h5>
-	                    <a href="tel:0123456789">0123456789</a>
-	                </div>
-	            </div>
-	            <div class="col-lg-6 col-md-12">
-	                <div class="contact-info-item">
-	                    <div class="contact-info-icon">
-	                        <i class="fas fa-envelope"></i>
-	                    </div>
-	                    <h5 class="title">
-	                        Email
-	                    </h5>
-	                    <a href="mailto:info@gmail.com">info@gmail.com </a>
-	                </div>
-	            </div>
-	        </div>
-	        <div class="contact-form-wrapper">
-	            <div class="row">
-	                <div class="col-lg-8 col-md-12 m-auto">
-	                    <form action="https://fmcargoworld.com/contact/store" method="post" class="contact-form form-group">
-	                        <input type="hidden" name="_token" value="BFK2kICT7tW9TSwlp2swnyIM0rG4QasP0YbKwy4J" />
-	                        <div class="row">
-	                            <div class="col-md-6">
-	                                 <label for="name">
-	                                    Name
-	                                </label>
-	                                <input type="text" name="name" value="" class="form-control" placeholder="Enter your name" />
-	                            </div>
-	                            <div class="col-md-6">
-	                                <label for="phone">
-	                                    Phone
-	                                </label>
-	                                <input type="text" name="phone" value="" class="form-control" placeholder="Enter phone number" />
-	                            </div>
-	                            <div class="col-md-12">
-	                                <label for="email">
-	                                    Email
-	                                </label>
-	                                <input type="email" name="email" class="form-control" placeholder="Enter your email"/>
-	                            </div>
-	                            <div class="col-md-12">
-	                                <label for="message">
-	                                    Message
-	                                </label>
-	                                <textarea name="message" rows="5" class="form-control" placeholder="Your Message" spellcheck="false"></textarea>
-	                            </div>
-	                        </div>
-	                        <div class="contact-submit-btn-outer">
-	                            <button class="contact-submit-btn-inner" type="submit">
-	                                Send Message
-	                                <i class="fas fa-paper-plane"></i>
-	                            </button>
-	                        </div>
-	                    </form>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
+	<section class="login-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 m-auto">
+					<form id="login-form" action="" method="post" class="login-form">							
+						<div class="col-md-12 m-auto login-custom supplier">
+							<h4>login to your registered account!</h4>
+							<div class="col-md-12 form-group mb-3">
+								<input type="email" name="email" placeholder="Email*" class="form-control">
+							</div>
+							<div class="col-md-12 form-group mb-3">
+								<input type="password" name="password" placeholder="Password*" class="form-control">
+							</div>
+							<div class="col-md-12 px-0">
+								<button type="submit">
+									Login
+								</button>
+							</div>
+							<p class="link-bottom">
+								Not a member yet?
+								<a href="register.html">Register Now</a>
+							</p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
 	</section>
-	<!-- /Contact -->
 </main>
 
 <!-- Footer -->
