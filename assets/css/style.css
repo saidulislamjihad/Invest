@@ -723,17 +723,16 @@ main{
     border-radius: 5px;
 }
 .about-sec-content-wrap h1,
-.about-sec-content-wrap h2
-.about-sec-content-wrap h3
-.about-sec-content-wrap h4
-.about-sec-content-wrap h5
-.about-sec-content-wrap h6 {
+.about-sec-content-wrap h2,
+.about-sec-content-wrap h3,
+.about-sec-content-wrap h4 {
     color: #000;
     font-weight: 500;
     margin-bottom: 5px;
+    font-size: 25px;
 }
 .about-sec-content-wrap p {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: #000;
     line-height: 26px;
@@ -884,3 +883,36 @@ main{
     text-decoration: underline;
 }
 /*Registation section css End*/
+
+/*Policy page css start*/
+.policy-section {
+    padding: 20px 0;
+    background: var(--primary-color);
+}
+.policy-sec-content-wrap {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.policy-sec-content-wrap h1,
+.policy-sec-content-wrap h2,
+.policy-sec-content-wrap h3,
+.policy-sec-content-wrap h4{
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.policy-sec-content-wrap p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    line-height: 26px;
+}
+.policy-sec-content-wrap a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #294e83;
+}
+/*Policy page css End*/
