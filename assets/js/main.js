@@ -49,11 +49,11 @@ $(document).ready(function() {
 });
 
 //Home slider Js
-$('.complate-project-wrapper ').owlCarousel({
+$('.complate-project-wrapper').owlCarousel({
     loop: true,
     margin: 10,
     dots: false,
-    nav: true,
+    nav: false,
     autoplay: true,
     responsive: {
         0: {
@@ -64,6 +64,26 @@ $('.complate-project-wrapper ').owlCarousel({
         },
         1000: {
             items: 3
+        }
+    }
+});
+
+//Gallery slider Js
+$('.project-details-image-slider').owlCarousel({
+    loop: true,
+    margin: 10,
+    dots: false,
+    nav: false,
+    autoplay: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items:1
+        },
+        1000: {
+            items: 1
         }
     }
 });

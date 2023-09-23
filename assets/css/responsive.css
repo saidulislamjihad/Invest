@@ -1,4 +1,20 @@
 @media screen and (max-width: 767px){
+		.project-details-sidebar-left {
+	    height: auto;
+	    margin-bottom: 20px;
+	}
+
+	.project-details-content-wrap {
+	    height: auto;
+	    margin-bottom: 20px;
+	}
+
+	.project-details-sidebar-right {
+	    height: auto;
+	}
+}
+
+@media screen and (max-width: 576px){
 	.nav-toggle-btn {
 	    display: flex;
 	}
@@ -43,17 +59,7 @@
 	.nav-item:hover .nav-item-link {
 	    color: #000;
 	}
-	.project-details-sidebar-left {
-	    height: auto;
-	    margin-bottom: 20px;
-	}
-
-	.project-details-content-wrap {
-	    height: auto;
-	    margin-bottom: 20px;
-	}
-
-	.project-details-sidebar-right {
-	    height: auto;
+	.fixed-header .nav-items-wrapper .nav-list {
+	    top: 50px;
 	}
 }

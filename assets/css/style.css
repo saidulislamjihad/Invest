@@ -379,8 +379,8 @@ main{
 }
 
 .complate-project-image img {
-    max-width: 75px;
-    height: 75px;
+    max-width: 100px;
+    height: 70px;
     object-fit: contain;
 }
 
@@ -454,6 +454,7 @@ main{
     font-weight: 400;
     color: #555;
     line-height: 22px;
+    margin-bottom: 0;
 }
 
 .progress-bar-top {
@@ -466,6 +467,10 @@ main{
 .progress-bar-top span {
     font-size: 13px;
     color: #555;
+}
+
+.progress-bar-outer {
+    margin: 15px 0;
 }
 
 .progress-bar-outer .progress {
@@ -522,7 +527,7 @@ main{
     padding: 40px 0;
 }
 
-.project-details-content-wrap {
+.project-details-center {
     background: #fff;
     padding: 20px;
     height: calc(100vh - 200px);
@@ -544,6 +549,10 @@ main{
     font-size: 16px;
     font-weight: 500;
     color: #000;
+}
+
+.sidebar-left-list-item-link.active {
+    background: #ddd;
 }
 
 .project-details-sidebar-right {
@@ -606,6 +615,33 @@ main{
     background: transparent;
     color: #294e83;
 }
+
+.project-details-faq-wrap .accordion-item {
+    margin-bottom: 20px;
+}
+.project-details-faq-wrap .accordion-item .accordion-header button {
+    background: #294e83;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0px;
+}
+.project-details-faq-wrap .accordion-body,.project-details-faq-wrap .accordion-body p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+}
+
+.project-details-image-slider-item {
+    margin-bottom: 20px;
+}
+
+.project-details-image-slider-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+}
 /*Project Details page css End*/
 
 /*Contact section css start*/
@@ -667,9 +703,9 @@ main{
     margin-bottom: 0;
 }
 
-.contact-form-wrapper {
+/*.contact-form-wrapper {
     margin-top: 30px;
-}
+}*/
 
 .contact-form {
     box-shadow: rgb(0 0 0 / 38%) 0px 3px 8px;
@@ -709,6 +745,24 @@ main{
     text-transform: capitalize;
     border-radius: 5px;
 }
+
+.contact-form-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-form-bottom  a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-form-bottom a i {
+    margin-right: 5px;
+}
+
 /*Contact section css End*/
 
 /*About page css start*/
